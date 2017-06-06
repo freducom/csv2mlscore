@@ -1,4 +1,6 @@
-# Calculate an average sentiment for several natural language sentiments
+# Calculate an average sentiment for several lines of text
+Useful e.g. if you have hundreds of lines of textual customer feedback and want to know the customers' average feeling.
+
 This bash script uses Google cloud's natural language processor to define the positivity vs negativity of a sentence using a node js script (sentiment.js) to parse the JSON reply and using python to calculate flotingpoint sum to get the average of several lines including text.
 
 ## USAGE
