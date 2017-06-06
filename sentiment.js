@@ -1,4 +1,4 @@
-//Sums up magnitude and score variables from a JSON reply from https://cloud.google.com/natural-language/docs/reference/rest/v1beta2/Sentiment
+//Returns the product of magnitude and score by parsing the two variables from the JSON reply from https://cloud.google.com/natural-language/docs/reference/rest/v1beta2/Sentiment
 //
 //Usage example:
 //cat test.json | node sentiment.js
