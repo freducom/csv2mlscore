@@ -3,7 +3,7 @@ This bash script uses Google cloud's natural language processor to define the po
 
 ## USAGE:
 `./run.sh inputfile.csv`
-where inputfile.csv is text that is parsed line by line and given to Google's natural language processor. inputfile.csv must be escaped for bash.
+where inputfile.csv is text that is parsed line by line and given to Google's natural language processor. inputfile.csv must be escaped for bash. Use the provided survey-small.csv for testing.
 
 ## EXPECTED RESULT:
 The average is 0.198538011695906 where negative numbers are negative feelings and positive are positive.
