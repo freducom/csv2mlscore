@@ -3,7 +3,7 @@
 //Usage example:
 //cat test.json | node sentiment.js
 //
-//Special thanks to https://github.com/alump
+//Special thanks to https://github.com/alump for this file
 
 var data = '';
 
