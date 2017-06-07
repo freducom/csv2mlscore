@@ -1,7 +1,7 @@
 # Calculate an average sentiment for several lines of text
 Useful e.g. if you have hundreds of lines of textual customer feedback and want to know the customers' average feeling.
 
-This bash script uses Google cloud's natural language processor to define the positivity vs negativity of a sentence using a node js script (sentiment.js) to parse the JSON reply and using python to calculate flotingpoint sum to get the average of several lines including text.
+This bash script uses Google cloud's natural language processor to define the sentiment (positivity vs negativity) of a sentence. It automatically splits longer sentences with multiple opinions into smaller ones and calculates the average feeling for the entire opinion.
 
 ## USAGE
 `./run.sh inputfile.csv`
@@ -17,3 +17,6 @@ The bash script calls `gcloud` which returns a JSON that is parsed by sentiment.
 - https://cloud.google.com/natural-language/docs/getting-started (which require python)
 - nodejs
 - perl
+
+## HASHTAGS
+ai,ml,machinelearning,naturallanguage,script,allthearchitectures,ffs
